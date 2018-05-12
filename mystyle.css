@@ -29,7 +29,7 @@ print {
     }
     .flex-container>div {
         background-color: rgb(235, 225, 255);
-        margin: 50px;
+        margin: 150px;
         flex: 1 1 60px;
     }
     hr {
