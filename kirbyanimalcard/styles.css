@@ -1,0 +1,57 @@
+/*add your CSS here */
+#container { 
+  background-image: url("superthumb.jpg"); 
+  background-repeat:  no-repeat;
+  background-size:cover;
+  border-radius:5px;
+  border-color: hotpink;
+  border-style: solid;
+  box-shadow: 5px 5px 5px 2px lightblue;
+  padding: 15px;
+}
+.bm {
+    font-weight: bold;
+}
+
+#summary {
+	background-color:#abd5e5;
+ 
+}
+
+#interesting-fact {  
+  font-style: italic;
+}
+
+li{
+  list-style: none;
+}
+
+.animal-info {
+  border-radius:5px;
+  border-color: hotpink;
+  border-style: solid;
+  padding-top:10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  margin-left:15px;
+  margin-bottom:20px;
+  margin-right:15px
+ }
+  
+  #pinky {
+    border-radius:5px;
+   border-color: hotpink;
+   border-style: solid;
+   margin-left:15px;
+}
+
+h1{
+  margin-left:50px;
+}
+
+body{
+  margin-left:80px;
+  margin-right:80px;
+  padding:25px 50px 75px 100px;
+}
