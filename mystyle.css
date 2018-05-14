@@ -3,6 +3,7 @@ print {
     .title {
         Margin-left: 85%;
         font-family: 'Roboto', sans-serif;
+         white-space:nowrap;
     }
     #logo {
         height: 200px;
