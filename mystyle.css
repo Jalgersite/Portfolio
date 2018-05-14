@@ -55,4 +55,10 @@ print {
         color: grey;
         background-color: rgb(54, 225, 248);
     }
+    /* Media Queries*/
+    @media screen and (max-width: 1000px) {
+    .tg {
+        margin-left: 10%;
+    }
+}
 }
