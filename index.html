@@ -3,7 +3,7 @@
 
 <head>
     <title>Google Grow with me nanodegree portfolio</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -13,13 +13,12 @@
     </script>
     <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async></script>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 </head>
-
 <body>
-
-
     <header>
-        <img id="logo-img" src="logo2.png" alt="Site Logo">
+        <img id="logo-img" src="img/logo2.png" alt="Site Logo">
         <div class="info">
             <h1 class="title"> Jillian Alger</h1>
         </div>
@@ -27,104 +26,41 @@
 
     <h3 class="tg">Aspiring: Front-End Web Developer | Free Lancer | Consulting</h3>
 
-
     <hr>
 
-    <div id="pc">
-        <picture>
-            <source srcset="mediumshoes.jpg" media="max-width:768px">
-            <source srcset="smallshoes.jpg" media="max-width=:480px">
-            <img srcset="largeshoes.jpg" alt="pic">
-        </picture>
-    </div>
+   <div id="pc" class="text-center">
+        <img src="img/largeshoes.jpg" class="img-fluid" alt="pic">
+    </div> 
 
     <h2 id="fw">Featured Works</h2>
 
     <div class="flex-container">
-        <div>
-
-            <p class="pj"> Project 1</p>
+        <div id="project-1">
+            <p class="pj">Project 1</p>
             <a href="./kirbyanimalcard/card.html" target="_blank">
-                <img class="pj-img" src="drawing.jpg" alt="kirby trading card">
+                <img class="pj-img" src="img/drawing.jpg" alt="kirby trading card">
             </a>
-
         </div>
-        <div>
+        <div id="project-2">
             <p class="pj"> Project 2</p>
             <a href="./pixleartmaker/index.html" target="_blank">
-
-                <img class="pj-img" src="drawing.jpg" alt="pixle maker">
+                <img class="pj-img" src="img/drawing.jpg" alt="pixle maker">
             </a>
         </div>
-        <div>
+        <div id="project-3">
             <p class="pj"> Project 3</p>
             <a href="./animaltradingcard.PNG" target="_blank">
-                <img class="pj-img" src="drawing.jpg" alt="niffler trading card">
+                <img class="pj-img" src="img/drawing.jpg" alt="niffler trading card">
             </a>
         </div>
-        <!-- <div>
-            <p class="pj"> Project 4</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-
-        <div>
-
-            <p class="pj"> Project 5</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-
-        </div>
-        <div>
-            <p class="pj"> Project 6</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-        <div>
-            <p class="pj"> Project 7</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-        <div>
-            <p class="pj"> Project 8</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-
-        <div>
-
-            <p class="pj"> Project 9</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-
-        </div>
-        <div>
-            <p class="pj"> Project 10</p>
-            <a hrew="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-        <div>
-            <p class="pj"> Project 11</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>
-        <div>
-            <p class="pj"> Project 12</p>
-            <a href="">
-                <img class="pj-img" src="drawing.jpg" alt="picture">
-            </a>
-        </div>-->
-
     </div>
-    <footer>Made with &lt;3</footer>
+    <footer>Made with &lt;3
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
 </body>
 
 </html>
