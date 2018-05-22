@@ -1,5 +1,6 @@
 .title {
-    Margin-left: 85%;
+    text-align: right;
+    Margin-right: 5%;
     font-family: 'Roboto', sans-serif;
     white-space: nowrap;
 }
@@ -8,6 +9,9 @@
     height: 200px;
 }
 
+header {
+    height: 205;
+}
 #logo-img {
     width: 6%;
     margin-left: 25%;
@@ -15,7 +19,8 @@
 }
 
 .tg {
-    margin-left: 70%;
+    margin-right: 5%;
+    text-align: right;
     font-family: 'Roboto', sans-serif;
     color: #a6a6a6;
 }
@@ -67,13 +72,13 @@ footer {
 
 /* Media Queries*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 450px) {
     .tg {
         margin-left: 10%;
     }
 
     picture {
-        width: 100%;
+        width: 94%;
     }
 
     .flex-container>div {
